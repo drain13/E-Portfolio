@@ -67,7 +67,7 @@ export const projects = [
     id: 4,
     title: "Simple Online Calculator",
     category: "Web",
-    image: "mage/image2.png",
+    image: "image/image2.png",
     summary: "A simple calculator.",
     details:
       "A simple online calculator with users guide on how to use it..",
