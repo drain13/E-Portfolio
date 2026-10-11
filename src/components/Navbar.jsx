@@ -36,9 +36,6 @@ export default function Navbar({ dark, onToggleDark, name }) {
     <header className="sticky top-0 z-40 border-b border-crimson/15 bg-paper/90 backdrop-blur dark:border-white/10 dark:bg-night/90">
       <nav className="mx-auto flex max-w-5xl items-center justify-between px-5 py-3" aria-label="Main">
         <a href="#home" className="flex items-center gap-2" aria-label="Home">
-          <span className="flex h-9 w-9 items-center justify-center rounded-md bg-crimson font-display text-sm font-bold text-white dark:bg-coral dark:text-night">
-            {name.split(" ").map((w) => w[0]).slice(0, 2).join("")}
-          </span>
           <span className="font-display text-lg font-bold text-crimson dark:text-coral">Portfolio</span>
         </a>
 
