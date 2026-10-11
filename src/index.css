@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+body { @apply bg-paper text-ink font-sans antialiased; }
+.dark body { @apply bg-night text-stone-200; }
+:focus-visible { outline: 2px solid #FF7B72; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  * { animation: none !important; transition: none !important; }
+}
